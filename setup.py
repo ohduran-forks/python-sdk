@@ -1,11 +1,11 @@
-from distutils.core import setup
 import os
+from distutils.core import setup
 
 setup(
     author = 'Signaturit',
     author_email = 'api@signaturit.com',
     description = "Signaturit Python SDK",
-    install_requires = ['requests', 'httpretty'],
+    install_requires = ['requests', 'httpretty<1'],
     keywords = "signaturit e-signature python sdk",
     license = 'MIT',
     name = 'signaturit_sdk',
